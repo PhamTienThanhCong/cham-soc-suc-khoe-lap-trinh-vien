@@ -21,6 +21,7 @@ function App() {
         <Route path="/teachbackcare" element={<TrainBackCare />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/howtouse" element={<HowtoUse />} />
+        <Route path="/howtouse" element={<HowtoUse />} />
       </Routes>
     </BrowserRouter>
   );
