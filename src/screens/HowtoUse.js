@@ -14,15 +14,15 @@ function HowtoUse() {
             <h1 clasName="mb-xxl">How to use?</h1>
             <div className="line-graph">
               <p>
-                Dev care will help you to take care of your health as
-                developers.
+              Dev care sẽ giúp bạn chăm sóc sức khỏe của mình như
+              nhà phát triển.
               </p>
 
               <h2 className="mt-xl mb-md">Back care</h2>
               <div style={{ maxWidth: "80ch", lineHeight: "2" }}>
                 <ol>
                   <li>
-                    Teach the app what a good and bad posture is{" "}
+                  Dạy cho ứng dụng thế nào là một tư thế tốt và xấu{" "}
                     <Link
                       to="/teachbackcare"
                       style={{
@@ -32,18 +32,18 @@ function HowtoUse() {
                         marginLeft: "0.25rem",
                       }}
                     >
-                      Here
+                      Đây
                     </Link>
                   </li>
-                  <li>Click atleast 5 pictures in good and bad posture is</li>
+                  <li>Bấm vào ít nhất 5 bức ảnh ở tư thế tốt và xấu là</li>
                   <li>
-                    Test the posture detection, click more pics for more
-                    accurate results
+                  Kiểm tra khả năng phát hiện tư thế, nhấp vào nhiều ảnh hơn để biết thêm
+                  kết quả chính xác
                   </li>
-                  <li>Come back to home and start the timer</li>
+                  <li>Trở về nhà và bắt đầu hẹn giờ</li>
                   <li>
-                    Every 20 minutes the app will check your posture and will
-                    remind you if it is incorrect
+                  Cứ sau 20 phút, ứng dụng sẽ kiểm tra tư thế của bạn và sẽ
+                  nhắc nhở bạn nếu nó không chính xác
                   </li>
                 </ol>
               </div>
@@ -51,18 +51,17 @@ function HowtoUse() {
               <h2 className="mt-xl mb-md">Eye care</h2>
               <p style={{ maxWidth: "80ch", lineHeight: "2" }}>
                 <ol>
-                  <li>Start the timer</li>
+                  <li>Bắt đầu hẹn giờ</li>
                   <li>
-                    Every 20 minutes the app will remind you to do an exercise
+                  Cứ sau 20 phút, ứng dụng sẽ nhắc bạn thực hiện một bài tập
                   </li>
-                  <li>Click on the notification</li>
+                  <li>Bấm vào thông báo</li>
                   <li>
-                    The app will navigate you to an exercise page. Click on Done
-                    when u r done doing the exercise
+                  Ứng dụng sẽ điều hướng bạn đến một trang bài tập. Nhấp vào Xong khi bạn hoàn thành bài tập
                   </li>
                   <li>
-                    The exercise is to look 20 feet away for 20 seconds every 20
-                    minutes to relax our eyes.
+                  Bài tập là nhìn xa 20 feet trong 20 giây cứ sau 20
+                  phút để thư giãn đôi mắt của chúng tôi.
                   </li>
                 </ol>
               </p>
@@ -70,15 +69,15 @@ function HowtoUse() {
               <h2 className="mt-xl mb-md">Ear care</h2>
               <p style={{ maxWidth: "80ch", lineHeight: "2", marginBottom: "5rem" }}>
                 <ol>
-                  <li>Click on the toggle button of Ear care on dashboard</li>
-                  <li>Give earphone permission</li>
+                  <li>Nhấp vào nút chuyển đổi Chăm sóc tai trên bảng điều khiển</li>
+                  <li>Cho phép tai nghe</li>
                   <li>
-                    Now after 40 minutes the app will remind you that you are
-                    reaching the daily limit of earphone usage time
+                  Bây giờ sau 40 phút, ứng dụng sẽ nhắc bạn rằng bạn đang
+                  đạt đến giới hạn thời gian sử dụng tai nghe hàng ngày
                   </li>
                   <li>
-                    It is advisable to use earphones for maximum 60 minutes a
-                    day at a maximum of 60% volume
+                  Nên sử dụng tai nghe tối đa 60 phút một lần
+                  ngày ở mức tối đa 60% âm lượng
                   </li>
                 </ol>
               </p>

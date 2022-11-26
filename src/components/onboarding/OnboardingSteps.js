@@ -5,7 +5,7 @@ const OnboardingSteps = ({ setCard }) => {
     <div className="onboarding-name">
       <div className="flex flex-justify-between flex-items-center">
         <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-          Features
+        Đặc trưng
         </h2>
         <img
           src="./assets/cartoon/smileydev.svg"
@@ -15,17 +15,17 @@ const OnboardingSteps = ({ setCard }) => {
 
       <div>
         <p className="mt-sm fs-md mb-sm fs-xl">
-          We help you to take care of your:{" "}
+        Chúng tôi giúp bạn chăm sóc:{" "}
         </p>
         <div className="flex flex-wrap features">
           <p>
-            <i className="fa-solid fa-child"></i>Back
+            <i className="fa-solid fa-child"></i>Trở lại
           </p>
           <p>
-            <i className="fa-solid fa-eye"></i>Eye
+            <i className="fa-solid fa-eye"></i>Mắt
           </p>
           <p>
-            <i className="fa-solid fa-ear-listen"></i>Ear
+            <i className="fa-solid fa-ear-listen"></i>Tai
           </p>
         </div>
       </div>
@@ -34,7 +34,7 @@ const OnboardingSteps = ({ setCard }) => {
           style={{ background: "var(--clr-primary-500) " }}
           onClick={() => setCard("how")}
         >
-          Next
+          Tiếp
         </button>
       </div>
     </div>

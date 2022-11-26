@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const ExerciseCard = ({ setIsDone }) => {
   return (
     <div className="modal-content" style={{ textAlign: "center" }}>
-      <h1 className="h1">Take care👋</h1>
+      <h1 className="h1">Bảo trọng👋</h1>
       <div className="img-modal">
         <img
           src="./assets/exercise.png"
@@ -14,13 +14,13 @@ const ExerciseCard = ({ setIsDone }) => {
           alt="exercise"
         />
       </div>
-      <div className="txt-center desc">Look 20 feet away for 20 seconds.</div>
+      <div className="txt-center desc">Nhìn xa 20 feet trong 20 giây.</div>
       <div className="btn-center">
         <button
           className="done-btn btn btn-primary"
           onClick={() => setIsDone(true)}
         >
-          Done
+          Xong
         </button>
       </div>
     </div>
@@ -30,7 +30,7 @@ const ExerciseCard = ({ setIsDone }) => {
 const DoneExerciseCard = () => {
   return (
     <div className="modal-content" style={{ textAlign: "center" }}>
-      <h1 className="h1">Hurray!</h1>
+      <h1 className="h1">Hoan hô!</h1>
       <div className="img-modal">
         <img
           src="./assets/cartoon/happydev.png"
@@ -41,10 +41,10 @@ const DoneExerciseCard = () => {
         />
       </div>
       <div className="txt-center desc">
-        Yayy! You have done the exercise. You can close this tab now.
+        Yayy! Bạn đã hoàn thành bài tập. Bạn có thể đóng tab này ngay bây giờ.
       </div>
       <div className="btn-center">
-        <button className="done-btn btn btn-primary">Done</button>
+        <button className="done-btn btn btn-primary">Xong</button>
       </div>
     </div>
   );

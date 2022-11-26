@@ -23,10 +23,10 @@ const PieChart = () => {
   
 
   const data = {
-    labels: ['Bad posture', 'Good posture'],
+    labels: ['tư thế xấu', 'tư thế tốt'],
     datasets: [
       {
-        label: '# count',
+        label: '# Đếm',
         data: [badcount, goodcount],
         backgroundColor: [
             'rgba(220, 38, 38, 0.7)',
@@ -48,7 +48,7 @@ const PieChart = () => {
   if(badcount === 0 & goodcount === 0){
     return <div className='flex flex-col flex-items-center'>
           <img src="./assets/cartoon/smileydev.png" alt="cartoon saying hi" width="300" height="300"></img>
-          <p className='fs-md'>Start using this feature to view the graph analysis here!</p>
+          <p className='fs-md'>Bắt đầu sử dụng tính năng này để xem phân tích biểu đồ tại đây!</p>
           </div>
   }
 

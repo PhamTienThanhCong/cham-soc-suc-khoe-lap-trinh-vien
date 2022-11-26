@@ -16,32 +16,32 @@ function EyeCare() {
         <Sidebar></Sidebar>
         <div className="main-graph-wrapper">
           <main className="main">
-            <h1 className="mb-xxl">Eye Care</h1>
+            <h1 className="mb-xxl">Chăm sóc mắt</h1>
             <div className="line-graph">
               <LineChart> </LineChart>
             </div>
           </main>
           <div className="cards-container">
             <div className="card">
-              <p className="fw-bold fs-lg">How it works?</p>
-              <p className="fs-sm mb-md">Find out how this feature works</p>
+              <p className="fw-bold fs-lg">Làm thế nào nó hoạt động?</p>
+              <p className="fs-sm mb-md">Tìm hiểu cách hoạt động của tính năng này</p>
               <button
                 className="btn btn-primary"
                 onClick={() => setshowHowModal(true)}
               >
-                Find out
+              Tìm ra
               </button>
             </div>
             <div className="card">
-              <p className="fw-bold fs-lg">Eye Exercises</p>
+              <p className="fw-bold fs-lg">bài tập mắt</p>
               <p className="fs-sm mb-md">
-                Get to know some eye exercises to relax your eyes.
+              Tìm hiểu một số bài tập mắt để thư giãn mắt.
               </p>
               <button
                 className="btn btn-primary"
                 onClick={() => setExerciseModal(true)}
               >
-                Find out
+              Tìm ra
               </button>
             </div>
           </div>
@@ -80,16 +80,16 @@ function EyeCare() {
               <div className="flex flex-col flex-wrap fs-sm steps">
                 <p className="mb-sm">
                   {" "}
-                  <i class="fa-solid fa-eye"></i>We will help you to relax your
-                  eyes.{" "}
+                  <i class="fa-solid fa-eye"></i>Chúng tôi sẽ giúp bạn thư giãn
+                  nhìn.{" "}
                 </p>
                 <p className="mb-sm">
-                  <i class="fa-regular fa-clock"></i>We will remind you every 20
-                  minutes
+                  <i class="fa-regular fa-clock"></i>Chúng tôi sẽ nhắc nhở bạn cứ sau 20
+                  phút
                 </p>
                 <p className="mb-sm">
-                  <i class="fa-solid fa-bell"></i>Click on the notification and
-                  do the given exercise
+                  <i class="fa-solid fa-bell"></i>Bấm vào thông báo và
+                  làm bài tập đã cho
                 </p>
               </div>
             </div>
@@ -98,7 +98,7 @@ function EyeCare() {
                 style={{ background: "var(--clr-primary-500) " }}
                 onClick={() => setshowHowModal(false)}
               >
-                done
+                Xong
               </button>
             </div>
           </div>
@@ -124,7 +124,7 @@ function EyeCare() {
                 onClick={() => setExerciseModal(false)}
               ></i>
               <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-                Eye Care
+              Chăm sóc mắt
               </h2>
             </div>
             <img
@@ -136,8 +136,8 @@ function EyeCare() {
               <div className="flex flex-col flex-wrap fs-sm steps">
                 <p className="mb-sm">
                   {" "}
-                  Every 20 minutes you spend looking at the screen look 20 feet
-                  away for 20 seconds.
+                  Cứ sau 20 phút bạn nhìn vào màn hình, hãy nhìn 20 feet
+                   đi trong 20 giây.
                 </p>
               </div>
             </div>
@@ -146,7 +146,7 @@ function EyeCare() {
                 style={{ background: "var(--clr-primary-500) " }}
                 onClick={() => setExerciseModal(false)}
               >
-                done
+                Xong
               </button>
             </div>
           </div>

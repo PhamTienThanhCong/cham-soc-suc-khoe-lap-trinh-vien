@@ -16,14 +16,14 @@ const OnboardingHow = ({ setCard }) => {
       <div>
         <div className="flex flex-col flex-wrap fs-sm steps">
           <p className="mb-sm">
-            <i class="fa-regular fa-circle-check"></i>Detect your posture and
-            notify
+            <i class="fa-regular fa-circle-check"></i>Phát hiện tư thế của bạn và
+            thông báo
           </p>
           <p className="mb-sm">
-            <i class="fa-regular fa-clock"></i> Reminder for an exercise
+            <i class="fa-regular fa-clock"></i> Nhắc nhở cho một bài tập
           </p>
           <p className="mb-sm">
-            <i class="fa-solid fa-chart-line"></i> Analysis of your habits
+            <i class="fa-solid fa-chart-line"></i> Phân tích thói quen của bạn
           </p>
         </div>
       </div>
@@ -32,7 +32,7 @@ const OnboardingHow = ({ setCard }) => {
           style={{ background: "var(--clr-primary-500) " }}
           onClick={() => setCard("notifs")}
         >
-          Next
+          Tiếp
         </button>
       </div>
     </div>

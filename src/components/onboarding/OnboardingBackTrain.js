@@ -6,7 +6,7 @@ const OnboardingBackTrain = () => {
     <div className="onboarding-name">
       <div className="flex flex-justify-between flex-items-center">
         <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-          Back Care
+          Chăm sóc lưng
         </h2>
         <img
           src="./assets/cartoon/smileydev.svg"
@@ -17,15 +17,15 @@ const OnboardingBackTrain = () => {
       <div>
         <div className="flex flex-col flex-wrap fs-md steps">
           <p className="mb-sm">
-            <i class="fa-solid fa-chalkboard-user"></i>Lets teach our app what a
-            good posture and a bad posture is{" "}
+            <i class="fa-solid fa-chalkboard-user"></i>Hãy dạy ứng dụng của chúng tôi những gì một
+            tư thế tốt và tư thế xấu là{" "}
           </p>
         </div>
       </div>
       <div className="flex flex-col flex-items-end">
         <Link to="/teachbackcare">
           <button style={{ background: "var(--clr-primary-500) " }}>
-            Next
+            Tiếp
           </button>
         </Link>
       </div>

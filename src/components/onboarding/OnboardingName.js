@@ -23,7 +23,7 @@ const OnboardingName = ({ setCard }) => {
     <div className="onboarding-name">
       <div className="flex flex-justify-between flex-items-center">
         <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-          Hello!
+          Xin chào!
         </h2>
         <img
           src="./assets/cartoon/smileydev.svg"
@@ -32,7 +32,7 @@ const OnboardingName = ({ setCard }) => {
       </div>
       <form name="name" data-netlify="true">
       <div>
-        <p className="mt-sm">What can I call you?</p>
+        <p className="mt-sm">Tôi có thể gọi bạn là gì nhỉ?</p>
         
         <input
           className="mt-md mb-md"
@@ -41,7 +41,7 @@ const OnboardingName = ({ setCard }) => {
           onChange={inputHandler}
           value={name}
         ></input>
-        {error && <p className="txt-red">Please enter your name</p>}
+        {error && <p className="txt-red">Xin hãy nhập tên của bạn</p>}
       </div>
 
       <div className="flex flex-col flex-items-end">
@@ -50,7 +50,7 @@ const OnboardingName = ({ setCard }) => {
           style={{ background: "var(--clr-primary-500) " }}
           onClick={clickHandler}
         >
-          Next
+          Tiếp
         </button>
       </div>
       </form>

@@ -101,9 +101,9 @@ const TrainBackCare = () => {
       <Nav></Nav>
 
       <main className="container-center-lg mt-xl">
-        <h1 className="fw-bold fs-xl mb-sm">Teach this app 👩‍🏫</h1>
+        <h1 className="fw-bold fs-xl mb-sm">Dạy ứng dụng này 👩‍🏫</h1>
         <p className="mt-md fs-md mb-md">
-          Teach this app the difference between good posture and bad posture
+        Dạy cho ứng dụng này sự khác biệt giữa tư thế tốt và tư thế xấu
         </p>
 
         <div className="train-wrapper flex">
@@ -136,25 +136,25 @@ const TrainBackCare = () => {
                 className="txt-center"
                 style={{ padding: "1rem", maxWidth: "40ch" }}
               >
-                Please wait. The app is learning about your posture.
+              Vui lòng chờ. Ứng dụng đang tìm hiểu về tư thế của bạn.
               </div>
             )}
             <button className="bg-green" onClick={() => trainModel("good")}>
-              Take Good Posture Pic <span>{goodPicsCount}</span>
+            Chụp ảnh tư thế tốt <span>{goodPicsCount}</span>
             </button>
             <button className="bg-red" onClick={() => trainModel("bad")}>
-              Take Bad Posture Pic <span>{badPicsCount}</span>
+              Chụp ảnh tư thế xấu <span>{badPicsCount}</span>
             </button>
             <button
               className="bg-primary"
               onClick={() => saveModel()}
               disabled={isDisabled}
             >
-              Done
+              Xong
             </button>
             {isTrained && (
               <button className="bg-primary" onClick={() => classifyPic()}>
-                Test Check Posture
+                Kiểm tra tư thế kiểm tra
               </button>
             )}
             {isTrained && result && <div className="txt-center">{result}</div>}
@@ -164,7 +164,7 @@ const TrainBackCare = () => {
                 <p className="txt-center fs-md mt-md txt-primary">
                   {" "}
                   <span style={{ borderBottom: "1px solid var(--clr-primary" }}>
-                    Back to home
+                    Trở về trang chủ
                   </span>
                 </p>
               </Link>
@@ -187,12 +187,12 @@ const TrainBackCare = () => {
               />
             </div>
             <div className="txt-center desc">
-              Problem with camera. Can't use this feature :(
+            Vấn đề với máy ảnh. Không thể sử dụng tính năng này :(
             </div>
             <div className="btn-center">
               <Link to="/">
                 <button className="done-btn btn btn-primary">
-                  Back to home
+                Trở về trang chủ
                 </button>
               </Link>
             </div>
@@ -205,7 +205,7 @@ const TrainBackCare = () => {
           <div className="onboarding-name">
             <div className="flex flex-justify-between flex-items-center">
               <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-                Back Care
+              Chăm sóc lưng
               </h2>
               <img
                 src="./assets/cartoon/smileydev.svg"
@@ -216,15 +216,15 @@ const TrainBackCare = () => {
             <div>
               <div className="flex flex-col flex-wrap fs-sm steps">
                 <p className="mb-sm">
-                  <i className="fa-solid fa-camera"></i>Take pictures of good
-                  and bad posture{" "}
+                  <i className="fa-solid fa-camera"></i>Chụp ảnh tốt
+                  và tư thế xấu{" "}
                 </p>
                 <p className="mb-sm">
-                  <i className="fa-solid fa-check"></i>Click on Done to finish
+                  <i className="fa-solid fa-check"></i>Click Xong để kết thúc
                 </p>
                 <p className="mb-sm">
-                  <i className="fa-solid fa-circle-info"></i>More the pics
-                  better it will be to detect{" "}
+                  <i className="fa-solid fa-circle-info"></i>Thêm các bức ảnh
+                  tốt hơn nó sẽ được phát hiện{" "}
                 </p>
               </div>
             </div>
@@ -233,7 +233,7 @@ const TrainBackCare = () => {
                 style={{ background: "var(--clr-primary-500) " }}
                 onClick={() => setShowModal(false)}
               >
-                Let's go
+              Đi nào
               </button>
             </div>
           </div>
@@ -242,7 +242,7 @@ const TrainBackCare = () => {
 
       {showAlert && (
         <div className="alert-yellow flex flex-items-center">
-          We don't save your data. Everything resides only on your browser.{" "}
+        Chúng tôi không lưu dữ liệu của bạn. Mọi thứ chỉ nằm trên trình duyệt của bạn.{" "}
           <i
             className="fa-solid fa-xmark"
             onClick={() => setShowAlert(false)}
@@ -276,8 +276,8 @@ const TrainBackCare = () => {
             <div>
               <div className="flex flex-col flex-wrap fs-sm steps">
                 <p className="mb-sm fs-md">
-                  Now the app knows what a correct posture is. We are ready to
-                  use the app now!
+                Bây giờ ứng dụng biết thế nào là một tư thế đúng. chúng tôi đã sẵn sàng để
+                sử dụng ứng dụng ngay bây giờ!
                 </p>
               </div>
             </div>
@@ -290,7 +290,7 @@ const TrainBackCare = () => {
                   }}
                   onClick={() => setShowDoneModal(false)}
                 >
-                  Home
+                  Trang chủ
                 </button>
               </Link>
 
@@ -301,7 +301,7 @@ const TrainBackCare = () => {
                 }}
                 onClick={() => setShowDoneModal(false)}
               >
-                Test
+                Kiểm tra
               </button>
             </div>
           </div>

@@ -9,7 +9,7 @@ const OnboardingNotifs = ({ setCard }) => {
     <div className="onboarding-name">
       <div className="flex flex-justify-between flex-items-center">
         <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-          Reminder
+        Lời nhắc nhở
         </h2>
         <img
           src="./assets/cartoon/smileydev.svg"
@@ -20,7 +20,7 @@ const OnboardingNotifs = ({ setCard }) => {
       <div>
         <div className="flex flex-wrap notifs">
           <p>
-            <i class="fa-regular fa-bell"></i>Allow Notifications to remind you
+            <i class="fa-regular fa-bell"></i>Cho phép thông báo nhắc nhở bạn
           </p>
         </div>
       </div>

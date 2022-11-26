@@ -8,31 +8,31 @@ const Sidebar = () => {
         <Link to="/">
           <li>
             <i className="fa-solid fa-house-chimney"></i>
-            <span className="fw-bold">Dashboard</span>
+            <span className="fw-bold">Bảng điều khiển</span>
           </li>
         </Link>
         <Link to="/backcare">
           <li>
             <i className="fa-solid fa-child"></i>
-            <span>Back care</span>
+            <span>Chăm sóc lưng</span>
           </li>
         </Link>
         <Link to="/eyecare">
           <li>
             <i className="fa-solid fa-eye"></i>
-            <span>Eye Care</span>
+            <span>Chăm sóc mắt</span>
           </li>
         </Link>
         <Link to="/earcare">
           <li>
             <i className="fa-solid fa-ear-listen"></i>
-            <span>Ear Care</span>
+            <span>Chăm sóc tai</span>
           </li>
         </Link>
         <Link to="/howtouse">
           <li>
           <i className="fa-solid fa-circle-question"></i>
-            <span>How to use</span>
+            <span>Cách sử dụng</span>
           </li>
         </Link>
       </ul>

@@ -5,7 +5,7 @@ const Score = () => {
     <div className="cartoon flex flex-col flex-items-center">
       <img src="./assets/cartoon/smileydev.png" alt="" />
       <p className="txt-center fs-lg">
-        You are taking good care of your health!
+        Bạn đang chăm sóc sức khỏe của mình rất tốt đấy!
       </p>
     </div>
   );
