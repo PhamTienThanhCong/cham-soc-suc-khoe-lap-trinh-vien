@@ -5,7 +5,7 @@ const OnboardingBackCare = ({ setCard }) => {
     <div className="onboarding-name">
       <div className="flex flex-justify-between flex-items-center">
         <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-          Back Care
+        Chăm sóc lưng
         </h2>
         <img
           src="./assets/cartoon/smileydev.svg"
@@ -16,15 +16,15 @@ const OnboardingBackCare = ({ setCard }) => {
       <div>
         <div className="flex flex-col flex-wrap fs-sm steps">
           <p className="mb-sm">
-            <i class="fa-solid fa-camera"></i>Take pictures of good and bad
-            posture{" "}
+            <i class="fa-solid fa-camera"></i>Chụp ảnh tốt và xấu
+            tư thế{" "}
           </p>
           <p className="mb-sm">
-            <i class="fa-brands fa-leanpub"></i>App will learn the difference
-            between them
+            <i class="fa-brands fa-leanpub"></i>Ứng dụng sẽ tìm hiểu sự khác biệt
+            giữa họ
           </p>
           <p className="mb-sm">
-            <i class="fa-solid fa-bell"></i>Notify you if you are in bad posture
+            <i class="fa-solid fa-bell"></i>Thông báo cho bạn nếu bạn đang ở trong tư thế xấu
           </p>
         </div>
       </div>
@@ -33,7 +33,7 @@ const OnboardingBackCare = ({ setCard }) => {
           style={{ background: "var(--clr-primary-500) " }}
           onClick={() => setCard("backtrain")}
         >
-          Next
+          Tiếp
         </button>
       </div>
     </div>

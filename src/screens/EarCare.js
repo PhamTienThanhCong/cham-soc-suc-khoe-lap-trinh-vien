@@ -16,32 +16,32 @@ function EarCare() {
         <Sidebar></Sidebar>
         <div className="main-graph-wrapper">
           <main className="main">
-            <h1 className="mb-xxl">Ear Care</h1>
+            <h1 className="mb-xxl">chăm sóc tai</h1>
             <div className="line-graph">
               <BarChart />
             </div>
           </main>
           <div className="cards-container">
             <div className="card">
-              <p className="fw-bold fs-lg">How it works?</p>
-              <p className="fs-sm mb-md">Find out how this feature works</p>
+              <p className="fw-bold fs-lg">Làm thế nào nó hoạt động?</p>
+              <p className="fs-sm mb-md">Tìm hiểu cách hoạt động của tính năng này</p>
               <button
                 className="btn btn-primary"
                 onClick={() => setshowHowModal(true)}
               >
-                Find out
+                Tìm ra
               </button>
             </div>
             <div className="card">
-              <p className="fw-bold fs-lg">Ear Exercises</p>
+              <p className="fw-bold fs-lg">bài tập tai</p>
               <p className="fs-sm mb-md">
-                Get to know how to take care of your ears.
+              Biết cách chăm sóc đôi tai của bạn.
               </p>
               <button
                 className="btn btn-primary"
                 onClick={() => setExerciseModal(true)}
               >
-                Find out
+              Tìm ra
               </button>
             </div>
           </div>
@@ -67,7 +67,7 @@ function EarCare() {
                 onClick={() => setshowHowModal(false)}
               ></i>
               <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-                Ear Care
+              chăm sóc tai
               </h2>
               <img
                 src="./assets/cartoon/smileydev.svg"
@@ -80,16 +80,16 @@ function EarCare() {
               <div className="flex flex-col flex-wrap fs-sm steps">
                 <p className="mb-sm">
                   {" "}
-                  <i class="fa-solid fa-ear-listen"></i>It is recommended to use
-                  earphones max for 60 minutes per day.{" "}
+                  <i class="fa-solid fa-ear-listen"></i>Nên sử dụng
+                  tai nghe tối đa 60 phút mỗi ngày.{" "}
                 </p>
                 <p className="mb-sm">
-                  <i class="fa-solid fa-bell"></i>We will remind you when u
-                  reach the time limit.
+                  <i class="fa-solid fa-bell"></i>Chúng tôi sẽ nhắc bạn khi bạn
+                  đạt đến giới hạn thời gian.
                 </p>
                 <p className="mb-sm">
-                  <i class="fa-solid fa-chart-line"></i>We will visualize your
-                  earphone usage time through chart
+                  <i class="fa-solid fa-chart-line"></i>Chúng tôi sẽ hình dung của bạn
+                  thời gian sử dụng tai nghe qua biểu đồ
                 </p>
                 {/* <p className='mb-sm'>This will help your eyes to relax.</p> */}
               </div>
@@ -99,7 +99,7 @@ function EarCare() {
                 style={{ background: "var(--clr-primary-500) " }}
                 onClick={() => setshowHowModal(false)}
               >
-                done
+                Xong
               </button>
             </div>
           </div>
@@ -125,7 +125,7 @@ function EarCare() {
                 onClick={() => setExerciseModal(false)}
               ></i>
               <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-                Ear Care
+                Chăm sóc tai
               </h2>
               <img
                 src="./assets/cartoon/smileydev.svg"
@@ -136,14 +136,14 @@ function EarCare() {
 
             <div>
               <div className="flex flex-col flex-wrap fs-sm steps">
-                <p className="mb-sm"> Follow 60-60 rule. </p>
+                <p className="mb-sm"> Thực hiện theo quy tắc 60-60. </p>
                 <p className="mb-sm">
-                  <i class="fa-solid fa-clock"></i>Use earphones maximum for 60
-                  minutes per day.
+                  <i class="fa-solid fa-clock"></i>Sử dụng tai nghe tối đa trong 60
+                  phút mỗi ngày.
                 </p>
                 <p className="mb-sm">
-                  <i class="fa-solid fa-volume-high"></i>Keep the volume 60%
-                  maximum.
+                  <i class="fa-solid fa-volume-high"></i>Giữ âm lượng 60%
+                  tối đa.
                 </p>
                 {/* <p className='mb-sm'>This will help your eyes to relax.</p> */}
               </div>
@@ -153,7 +153,7 @@ function EarCare() {
                 style={{ background: "var(--clr-primary-500) " }}
                 onClick={() => setExerciseModal(false)}
               >
-                done
+                Xong
               </button>
             </div>
           </div>

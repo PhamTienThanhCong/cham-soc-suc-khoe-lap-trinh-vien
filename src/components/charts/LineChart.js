@@ -32,12 +32,12 @@ export function LineChart() {
     setEyeData(eyedata);
   }, []);
 
-  const labels = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const labels = ['Chủ Nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'];
   const data = {
     labels: labels,
     datasets: [
       {
-        label: "Eye Care Exercises Analysis",
+        label: "Phân tích bài tập chăm sóc mắt",
         fill: true,
         data: eyeData,
         borderColor: "rgba(0, 153, 246, 0.5)",

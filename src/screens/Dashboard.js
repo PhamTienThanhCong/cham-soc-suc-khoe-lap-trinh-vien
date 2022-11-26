@@ -247,11 +247,11 @@ function Dashboard() {
             <div className="cta flex-col">
               <div>
                 <button className="btn btn-primary" onClick={restart} disabled={isDisabled}>
-                  Start
+                  Bắt đầu
                 </button>
                 {isStarted && (
                   <button className="btn btn-secondary" onClick={stopHandler}>
-                    Stop
+                    Dừng lại
                   </button>
                 )}
               </div>

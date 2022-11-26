@@ -16,31 +16,31 @@ function BackCare() {
         <Sidebar></Sidebar>
         <div className="main-graph-wrapper">
           <main className="main">
-            <h1>Back Care</h1>
+            <h1>Chăm sóc lưng</h1>
             <div className="graph">
               <PieChart></PieChart>
             </div>
           </main>
           <div className="cards-container">
             <div className="card">
-              <p className="fw-bold fs-lg">How it works?</p>
-              <p className="fs-sm mb-md">Find out how this feature works</p>
+              <p className="fw-bold fs-lg">Làm thế nào nó hoạt động?</p>
+              <p className="fs-sm mb-md">Tìm hiểu cách hoạt động của tính năng này</p>
               <button
                 className="btn btn-primary"
                 onClick={() => setShowModal(true)}
               >
-                Find out
+                Tìm ra
               </button>
             </div>
             <div className="card">
-              <p className="fw-bold fs-lg">Take new pics</p>
+              <p className="fw-bold fs-lg">Chụp ảnh mới</p>
               <p className="fs-sm mb-md">
-                Will help the app to determine whether you are sitting in
-                correct posture or not
+              Sẽ giúp ứng dụng xác định xem bạn có đang ngồi trong
+              đúng tư thế hay không
               </p>
               <Link to="/teachbackcare">
                 <button className="btn btn-primary" style={{ width: "100%" }}>
-                  Take pics
+                Chụp ảnh
                 </button>{" "}
               </Link>
             </div>
@@ -66,7 +66,7 @@ function BackCare() {
                 onClick={() => setShowModal(false)}
               ></i>
               <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-                Back Care
+                Chăm sóc lưng
               </h2>
               <img
                 src="./assets/cartoon/smileydev.svg"
@@ -77,16 +77,16 @@ function BackCare() {
             <div>
               <div className="flex flex-col flex-wrap fs-sm steps">
                 <p className="mb-sm">
-                  <i class="fa-solid fa-camera"></i>Take pictures of good and
-                  bad posture{" "}
+                  <i class="fa-solid fa-camera"></i>Chụp những bức ảnh đẹp và
+                  tư thế xấu{" "}
                 </p>
                 <p className="mb-sm">
-                  <i class="fa-brands fa-leanpub"></i>App will learn the
-                  difference between them
+                  <i class="fa-brands fa-leanpub"></i>Ứng dụng sẽ học
+                  sự khác biệt giữa chúng
                 </p>
                 <p className="mb-sm">
-                  <i class="fa-solid fa-bell"></i>Notify you if you are in bad
-                  posture
+                  <i class="fa-solid fa-bell"></i>Thông báo cho bạn nếu bạn đang ở trong tình trạng xấu
+                  tư thế
                 </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ function BackCare() {
                 style={{ background: "var(--clr-primary-500) " }}
                 onClick={() => setShowModal(false)}
               >
-                Done
+                Xong
               </button>
             </div>
           </div>

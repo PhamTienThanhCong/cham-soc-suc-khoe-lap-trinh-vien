@@ -25,12 +25,12 @@ export const options = {
   plugins: {
     title: {
       display: true,
-      text: 'Ear Care Analysis',
+      text: 'Phân tích chăm sóc tai',
     },
   },
 };
 
-const labels = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const labels = ['Chủ Nhật', 'Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'];
 
 
 export function BarChart() {
@@ -47,7 +47,7 @@ export function BarChart() {
     labels,
     datasets: [
       {
-        label: 'Earphone Usage Time',
+        label: 'Thời gian sử dụng tai nghe',
         data: earData,
         backgroundColor: 'rgba(0, 153, 246, 0.5)',
       }
