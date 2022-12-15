@@ -2,6 +2,7 @@ export const notify = (url) => {
   console.log("hereeeeeeee");
   Notification.requestPermission(function (result) {
     if (result === "granted") {
+      console.log("check");
       navigator.serviceWorker.ready.then(function (registration) {
         registration.showNotification("Exercise Time", {
           body: "Look away from the screen",
