@@ -48,7 +48,7 @@ function HowtoUse() {
                 </ol>
               </div>
 
-              <h2 className="mt-xl mb-md">Eye care</h2>
+              <h2 className="mt-xl mb-md">Chăm sóc mắt</h2>
               <p style={{ maxWidth: "80ch", lineHeight: "2" }}>
                 <ol>
                   <li>Bắt đầu hẹn giờ</li>
@@ -66,7 +66,7 @@ function HowtoUse() {
                 </ol>
               </p>
 
-              <h2 className="mt-xl mb-md">Ear care</h2>
+              <h2 className="mt-xl mb-md">Chăm sóc tai</h2>
               <p style={{ maxWidth: "80ch", lineHeight: "2", marginBottom: "5rem" }}>
                 <ol>
                   <li>Nhấp vào nút chuyển đổi Chăm sóc tai trên bảng điều khiển</li>

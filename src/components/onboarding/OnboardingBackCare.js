@@ -8,6 +8,7 @@ const OnboardingBackCare = ({ setCard }) => {
         Chăm sóc lưng
         </h2>
         <img
+        alt=""
           src="./assets/cartoon/smileydev.svg"
           style={{ width: "50%" }}
         ></img>

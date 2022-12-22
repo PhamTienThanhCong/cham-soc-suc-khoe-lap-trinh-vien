@@ -8,6 +8,7 @@ import Exercise from "./screens/Exercise";
 import TrainBackCare from "./screens/TrainBackCare";
 import AboutUs from "./screens/Aboutus";
 import HowtoUse from "./screens/HowtoUse";
+import Plantime from "./screens/Plantime";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/teachbackcare" element={<TrainBackCare />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/howtouse" element={<HowtoUse />} />
+        <Route path="/plantime" element={<Plantime />} />
       </Routes>
     </BrowserRouter>
   );

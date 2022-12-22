@@ -8,6 +8,7 @@ const OnboardingSteps = ({ setCard }) => {
         Đặc trưng
         </h2>
         <img
+          alt=""
           src="./assets/cartoon/smileydev.svg"
           style={{ width: "50%" }}
         ></img>
@@ -19,7 +20,7 @@ const OnboardingSteps = ({ setCard }) => {
         </p>
         <div className="flex flex-wrap features">
           <p>
-            <i className="fa-solid fa-child"></i>Trở lại
+            <i className="fa-solid fa-child"></i>Lưng
           </p>
           <p>
             <i className="fa-solid fa-eye"></i>Mắt

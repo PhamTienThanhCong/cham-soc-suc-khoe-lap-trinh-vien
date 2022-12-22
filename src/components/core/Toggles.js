@@ -11,7 +11,7 @@ const Toggles = ({
   return (
     <div className="options">
       <div className="option">
-        <div>Back Care:</div>
+        <div>Chăm sóc lưng:</div>
         <div>
           <label className="switch">
             <input
@@ -26,7 +26,7 @@ const Toggles = ({
         </div>
       </div>
       <div className="option">
-        <div>Eye Care:</div>
+        <div>Chăm sóc mắt:</div>
         <div>
           <label className="switch">
             <input
@@ -41,7 +41,7 @@ const Toggles = ({
         </div>
       </div>
       <div className="option">
-        <div>Ear Care:</div>
+        <div>Chăm sóc tai:</div>
         <div>
           <label className="switch">
             <input

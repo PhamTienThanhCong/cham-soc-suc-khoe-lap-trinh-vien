@@ -29,6 +29,12 @@ const Sidebar = () => {
             <span>Chăm sóc tai</span>
           </li>
         </Link>
+        <Link to="/plantime">
+          <li>
+            <i className="fa-solid fa-timer"></i>
+            <span>Kế hoạch code</span>
+          </li>
+        </Link>
         <Link to="/howtouse">
           <li>
           <i className="fa-solid fa-circle-question"></i>

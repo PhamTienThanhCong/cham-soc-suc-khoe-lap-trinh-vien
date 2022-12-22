@@ -67,7 +67,7 @@ function EyeCare() {
                 onClick={() => setshowHowModal(false)}
               ></i>
               <h2 className="fs-xl" style={{ flexGrow: "1" }}>
-                Eye Care
+                Chăm sóc mắt
               </h2>
               <img
                 src="./assets/cartoon/smileydev.svg"

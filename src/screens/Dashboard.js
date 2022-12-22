@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from "react";
 import {
   notify,
   notifyEar,
+  notifyExcersize,
   notifySitStraight,
 } from "../services/notifications";
 import { setEarData } from "../services/datahandling";
@@ -60,7 +61,7 @@ function Dashboard() {
   let visitedHome = localStorage.getItem("visited");
   let name = localStorage.getItem("name");
 
-  const [time, setTime] = useState(100);
+  const [time, setTime] = useState(200);
   const [isCamOn, setIsCamOn] = useState(false);
 
   const [isStarted, setIsStarted] = useState(false);
@@ -99,7 +100,12 @@ function Dashboard() {
       setEarData();
     }
     timeCounter++;
+
     restart();
+
+    if(timeCounter=== 3 ){
+      alert("Hãy đứng dạy và tập thể dục đi nào!");
+    }
   };
 
   useEffect(() => {
@@ -171,7 +177,7 @@ function Dashboard() {
     }
   };
 
-  // Ear Care
+  // Chăm sóc tai
   const getLocalStream = () => {
     navigator.mediaDevices
       .getUserMedia({ video: false, audio: true })

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const OnboardingName = ({ setCard }) => {
   const [name, setName] = useState("");
@@ -26,6 +26,7 @@ const OnboardingName = ({ setCard }) => {
           Xin chào!
         </h2>
         <img
+        alt=""
           src="./assets/cartoon/smileydev.svg"
           style={{ width: "50%" }}
         ></img>
